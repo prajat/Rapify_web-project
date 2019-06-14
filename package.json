@@ -4,10 +4,10 @@
   "description": "",
   "main": "main.js",
   "dependencies": {
-    "@babel/core": "^7.4.5",
     "jquery": "^3.4.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.5",
     "autoprefixer": "^9.6.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.6",

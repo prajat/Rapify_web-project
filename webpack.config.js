@@ -1,7 +1,7 @@
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var MiniCssExtractPlugin = require("mini-css-extract-plugin");
 var path = require('path');
-var CopyPlugin=require('copy-webpack-plugin');
+var CopyPlugin = require('copy-webpack-plugin');
 module.exports = {
   entry: ['./src/main.js', './src/sass/style.scss'],
   output: {
@@ -41,9 +41,11 @@ module.exports = {
     }),
     new MiniCssExtractPlugin({
       filename: 'style.css'
-    }),new CopyPlugin([
-      { from:'./assets',to:'./assets' }
-      
+    }), new CopyPlugin([{
+        from: './assets',
+        to: './assets'
+      }
+
     ])
   ],
 

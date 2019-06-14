@@ -1,9 +1,35 @@
-.header{
-    background-color:$color7;
-    height: 20%;
+.header {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 15%;
     width: 100%;
     display: flex;
     position: fixed;
-    justify-content: center;
-    z-index: 1;   //for restrictin growing image over our header   
+    //justify-content: space-between;
+    z-index: 1; //for restrictin growing image over our header   
+    align-items: center;
+    justify-content: space-around;
+
+    &__logo {
+        width: 30%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            height: 100%;
+            width: 25%;
+
+        }
+
+        &__text {
+            color: white;
+            margin-left: 5%;
+            font-size: 4rem;
+            font-weight: 900;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+        }
+
+    }
 }
