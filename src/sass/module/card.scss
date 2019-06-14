@@ -1,0 +1,5 @@
+.main__content__card{
+    @include content__card();
+    background-color: $color2;
+    
+}

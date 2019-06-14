@@ -1,0 +1,9 @@
+@mixin card__pic{
+    width: 22%;
+    height: 80%;
+    margin: 20px;
+    border: 4px solid black;
+    overflow: hidden;
+    background-size: 100% 100%;
+    transition: transform 1s;
+}
