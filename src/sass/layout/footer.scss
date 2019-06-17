@@ -1,23 +1,29 @@
-.footer{
-    background-color:rgba(0, 0, 0, 0.8);
+.footer {
+    background-color: rgba(0, 0, 0, 0.8);
     height: 10%;
     width: 100%;
     display: flex;
-    position:fixed;
-    bottom:0;
-    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
     align-items: center;
 
-    &__items{
+    &__items {
         display: flex;
         justify-content: center;
-        &__links{
-            margin: 10px;
+        width: 50%;
+
+        li {
+            margin-left: 5%;
+
+        }
+
+        &__links {
             font-size: 18px;
             cursor: pointer;
             transition: 0.1s ease;
-            
+
         }
 
-    }   
+    }
 }

@@ -1,5 +1,5 @@
 .header {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.8);
     height: 15%;
     width: 100%;
     display: flex;
@@ -14,13 +14,14 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        transition: 1s ease-in-out;
+        
 
         
 
         img {
             height: 100%;
-            width: 25%;
+            width: 23%;
+            transition: 1s ease-in-out;
             
         }
 
