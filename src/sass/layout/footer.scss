@@ -8,12 +8,12 @@
     justify-content: center;
     align-items: center;
 
-    &__items {
+    &__list {
         display: flex;
         justify-content: center;
         width: 50%;
 
-        li {
+        &__items {
             margin-left: 5%;
 
         }
