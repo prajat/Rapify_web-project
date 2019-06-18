@@ -27,7 +27,7 @@
   },
   "scripts": {
     "build": "webpack --mode development",
-    "start": "webpack-dev-server --hot",
+    "start": "webpack-dev-server --mode development",
     "babel": "babel --presets es2015 dist/bundle.js -o dist/main.bundle.js"
   },
   "author": "rajat",
