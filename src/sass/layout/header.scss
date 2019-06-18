@@ -14,15 +14,13 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        
 
-        
 
-        img {
+        &__img {
             height: 100%;
             width: 23%;
             transition: 1s ease-in-out;
-            
+
         }
 
         &__text {
@@ -35,7 +33,6 @@
         }
 
     }
-    
-}
 
-  
+
+}
