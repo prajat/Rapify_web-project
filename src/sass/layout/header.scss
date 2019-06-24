@@ -1,6 +1,6 @@
 .header {
     background-color: rgba(0, 0, 0, 0.8);
-    height: 15%;
+    height: 10%;
     width: 100%;
     display: flex;
     position: fixed;
@@ -17,8 +17,8 @@
 
 
         &__img {
-            height: 100%;
-            width: 23%;
+            height: 80%;
+            width: 12%;
             transition: 1s ease-in-out;
 
         }
@@ -26,7 +26,7 @@
         &__text {
             color: white;
             margin-left: 5%;
-            font-size: 4rem;
+            font-size: 2rem;
             font-weight: 900;
             letter-spacing: -0.02em;
             line-height: 1.2;
